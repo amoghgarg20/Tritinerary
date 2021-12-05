@@ -1,0 +1,111 @@
+
+  body {
+    background-color: grey;
+  }
+  
+  #navbar {
+    z-index: 6;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0.7rem 0.2rem;
+    float: left;
+    box-shadow: 0rem -0.2rem 0.5rem black;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--primary-color);
+  }
+  
+  .flex-nav {
+    scale: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .flex-nav h2 {
+    color: var(--primary-color);
+    font-weight: 400;
+    margin: 0rem;
+  }
+  
+  .flex-nav-left {
+    display: flex;
+  }
+  
+  .flex-nav-center {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    /* right: 5%; */
+  }
+  
+  .flex-nav-right {
+    display: flex;
+    padding-right: 0.5rem;
+  }
+  
+  
+  .underline-animation {
+    display: inline-block;
+    position: relative;
+    color: var(--primary-color);
+  }
+  
+  .underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.1rem;
+    bottom: 0.3rem;
+    left: 0;
+    background-color: var(--primary-color);
+    transform-origin: bottom;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .underline-animation:hover:after {
+    transform: scaleX(0.9);
+    transform-origin: bottom;
+  }
+  .input-table{
+    text-align: center;
+    font-size: large;
+    margin-top: 5px;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+.header{
+    margin-top:15px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius:3px;
+}
+table,tr,td{
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid white;
+    width: 60%;
+    border-radius: 3px;
+    background-color: black;
+  }
+  
