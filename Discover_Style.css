@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+body{
+  margin: 0;
+}
+.image-shadow{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.city-name{
+  font-weight: 700;
+  position: absolute;
+  text-shadow: 0px 0px 10px black;
+  bottom: 12%;
+  left: 15%;
+}
+
+.img-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.img-container:hover{
+  transform: scale(1.1);
+}
