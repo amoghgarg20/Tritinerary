@@ -1,3 +1,3 @@
 # Tritinerary-Website
 ## Web Technology Project
-Refer to 'Project Report' for functionalities ans screenshots of the site.
+Refer to 'Project Report' for functionalities and screenshots of the site.
